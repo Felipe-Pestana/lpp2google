@@ -1571,6 +1571,80 @@
   position: absolute;
 }
 
+.hero-heading-center-3 {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4ebf3;
+  height: 500px;
+  padding: 80px 30px;
+  position: relative;
+}
+
+.container-40 {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-heading-2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.centered-heading-2.margin-bottom-32px {
+  margin-bottom: 32px;
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.hero-wrapper-2 {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.hero-split-2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 46%;
+  display: flex;
+}
+
+.margin-bottom-24px-2 {
+  margin-bottom: 24px;
+}
+
+.button-primary-2 {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #1a1b1f;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary-2:hover {
+  color: #fff;
+  background-color: #32343a;
+}
+
+.button-primary-2:active {
+  background-color: #43464d;
+}
+
+.shadow-two-2 {
+  box-shadow: 0 4px 24px rgba(150, 163, 181, .08);
+}
+
+.text-span-8 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1440px) {
   .mobile-margin-top-10 {
     margin-left: 20px;
@@ -1988,6 +2062,22 @@
   .youtube-2, .quick-stack-2 {
     width: 600px;
   }
+
+  .container-40 {
+    max-width: 728px;
+  }
+
+  .hero-wrapper-2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split-2 {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2335,6 +2425,10 @@
 
   .c-faq {
     width: 100%;
+  }
+
+  .hero-heading-center-3 {
+    padding: 60px 15px;
   }
 }
 
@@ -2714,6 +2808,14 @@
   .help-2 {
     width: 300px;
     left: 148px;
+  }
+
+  .container-40 {
+    max-width: none;
+  }
+
+  .centered-heading-2 {
+    margin-bottom: 24px;
   }
 }
 
