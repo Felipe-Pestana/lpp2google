@@ -1761,6 +1761,18 @@
   }
 }
 
+@media screen and (max-width: 1024px){
+  .navbar-wrapper{
+    width: 850px;
+  }
+  .help-3{
+    right: 3%;
+  }
+  .team-slider-arrow{
+    left: 870px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .container {
     max-width: 700px;
@@ -2080,7 +2092,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar-logo-left-container {
     max-width: 100%;
   }
@@ -2364,7 +2376,6 @@
     align-items: center;
     width: 650px;
     margin-top: 10px;
-    margin-left: 16px;
   }
 
   .footer-bottom {
@@ -2429,6 +2440,9 @@
 
   .hero-heading-center-3 {
     padding: 60px 15px;
+  }
+  .navbar-wrapper{
+    max-width: 720px;
   }
 }
 
@@ -2601,7 +2615,6 @@
 
   .team-slider {
     width: 350px;
-    margin-top: 739px;
   }
 
   .team-slide-wrapper {
@@ -2860,6 +2873,85 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .navbar-wrapper{
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .navbar-wrapper{
+    max-width: 350px;
+  }
+  .section, .heading{
+    width: 330px;
+  }
+  .team-block-info, .team-slide-wrapper, .w-slider-mask, .w-slider{
+    width: 330px;
+  }
+  .team-slider-arrow{
+    right: -200px;
+    content-visibility: hidden;
+  }
+  .team-slider-nav{
+    margin: 24px 0 0 0;
+    width: 320px;
+  }
+  .team-block{
+    width: 320px;
+  }
+  .team-block-info{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .team-member-name-two, .team-member-text{
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar-brand{
+    width: 230px;
+  }
+  .navbar-wrapper{
+    max-width: 300px;
+  }
+  .nav-menu-two{
+    width: 280px;
+    margin-left: -10px;
+  }
+  .heading, .section, .container-30, .heading-16, .margin-bottom-24px, .container-33, .ytp-cued-thumbnail-overlay, .heading-4, .container-14, .services-icon, .services-block, .services, .h3-services, .services-p-small, .services-icon.icon-2, .w-layout-layout, .centered-heading.margin-bottom-32px, .section-3, .shadow-two, .container-34, .team-slider, .centered-heading, .container-36, .paragraph-17, .paragraph-18, .container-38, .text-span-5, .paragraph-21, .heading-17{
+    width: 280px;
+  }
+  .team-slider{
+    margin-top: 770px;
+  }
+  .section{
+    margin-left: -5px;
+  }
+  .team-slide-wrapper-2, .team-block, .team-slider-nav, .w-slider-mask, .team-slider-wrapper-2, .cell-9, .cell-10, .footer-form-container-two, .footer-block-three, .footer-copyright{
+    width: 260px;
+  }
+  .team-member-name-two{
+    width: 225px;
+  }
+  .team-member-text, .footer-form-title{
+    width: 220px;
+  }
+  .footer-form-two, .footer-bottom{
+    width: 290px;
+  }
+  .team-block-info{
+    width: 300px;
+    padding-left: 0;
+  }
+  
+  .w-embed-youtubevideo{
+    top: 30px;
+    left: 5px;
+    width: 280px;
+  }
+}
 
 @font-face {
   font-family: 'Neogramtrial Bf 63 Eaf 5 Cbe 5 A 7 B';
